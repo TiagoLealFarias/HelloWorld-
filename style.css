@@ -44,14 +44,19 @@ button:focus-within {
     padding: 50px;
 }
 
-.columm-1 {
+img {
     width: 300px;
     height: 300px;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-right: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .columm-2 {
     max-width: 600px;
+    text-align: center;
+}
+
+.new-content {
+    align-items: center;
+    justify-content: center;
 }
