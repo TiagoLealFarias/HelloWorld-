@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-button {
+#click-button {
     background-color: blue;
     color: white;
     padding: 10px 20px;
@@ -26,12 +26,12 @@ button {
     font-style: normal;
 }
 
-button:hover {
+#click-button:hover {
     background-color: red;
     color: black;
 }
 
-button:focus-within {
+#click-button:focus-within {
     background-color: purple;
     color: orange;
 }
@@ -61,3 +61,43 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+.purple-screen {
+    background-image: radial-gradient(circle, #450669, #7c2f94);
+}
+
+.first-picture {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+}
+
+.second-picture {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+}
+
+#purple-hello #purple-hello2 {
+    object-fit: contain; 
+}
+
+#up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 54);
+    color: white;
+    padding: 10px 20px;
+    border: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+    box-shadow: 2px 2px 5px rgb(248, 247, 247); /* Adiciona a sombra */
+    
+}
+#up-button:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra mais intensa ao passar o mouse */
+  }
