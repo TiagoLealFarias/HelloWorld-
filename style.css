@@ -24,6 +24,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
 }
 
 #click-button:hover {
@@ -64,6 +65,8 @@ img {
 
 .purple-screen {
     background-image: radial-gradient(circle, #450669, #7c2f94);
+    justify-content: space-around;
+    text-align: center; /*para colocar o botao no centro*/
 }
 
 .first-picture {
@@ -71,6 +74,7 @@ img {
     align-items: center;
     font-style: italic;
     text-align: center;
+    margin: 0 20 0 200px;
 }
 
 .second-picture {
@@ -78,26 +82,35 @@ img {
     align-items: center;
     font-style: italic;
     text-align: center;
+    margin: 0 100px;
+}
+
+.first-picture h4, .second-picture h4 {
+    text-align: center; /* Alinha o texto ao centro */
+    max-width: 500px;   /* Limita a largura do texto para alinhá-lo com a imagem */
 }
 
 #purple-hello #purple-hello2 {
-    object-fit: contain; 
+    object-fit: contain;    
+    width: 300px;  /* Ajusta o tamanho das imagens */
+    height: auto;  /* Mantém a proporção da imagem */ 
 }
 
 #up-button {
-    display: flex;
+    display: inline-block; /* Corrige o tamanho do botão */
     justify-content: center;
     align-items: center;
     background-color: rgb(6, 6, 54);
     color: white;
-    padding: 10px 20px;
-    border: 500px;
+    text-decoration: none;
+    padding: 10px 100px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-style: normal;
     box-shadow: 2px 2px 5px rgb(248, 247, 247); /* Adiciona a sombra */
-    
 }
+
 #up-button:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra mais intensa ao passar o mouse */
-  }
+}
