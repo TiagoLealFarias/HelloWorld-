@@ -64,9 +64,10 @@ img {
 }
 
 .purple-screen {
-    background-image: radial-gradient(circle, #450669, #7c2f94);
-    justify-content: space-around;
+    background-image: linear-gradient(#7c2f94, #2d0446);
+    justify-content: space-between;
     text-align: center; /*para colocar o botao no centro*/
+    padding: 30px;
 }
 
 .first-picture {
@@ -74,7 +75,6 @@ img {
     align-items: center;
     font-style: italic;
     text-align: center;
-    margin: 0 20 0 200px;
 }
 
 .second-picture {
@@ -82,12 +82,11 @@ img {
     align-items: center;
     font-style: italic;
     text-align: center;
-    margin: 0 100px;
 }
 
 .first-picture h4, .second-picture h4 {
     text-align: center; /* Alinha o texto ao centro */
-    max-width: 500px;   /* Limita a largura do texto para alinhá-lo com a imagem */
+    font-size: 18px;
 }
 
 #purple-hello #purple-hello2 {
@@ -103,14 +102,16 @@ img {
     background-color: rgb(6, 6, 54);
     color: white;
     text-decoration: none;
-    padding: 10px 100px;
+    padding: 20px 200px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-style: normal;
-    box-shadow: 2px 2px 5px rgb(248, 247, 247); /* Adiciona a sombra */
+    /**box-shadow: 2px 2px 5px rgb(248, 247, 247); /* Adiciona a sombra */
+    border-bottom: 2px solid;
+    border-right: white solid;
 }
 
 #up-button:hover {
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra mais intensa ao passar o mouse */
+    box-shadow: 4px 4px 10px rgb(0, 0, 0); /* Sombra mais intensa ao passar o mouse */
 }
